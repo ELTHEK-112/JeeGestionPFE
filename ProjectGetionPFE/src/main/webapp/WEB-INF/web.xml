@@ -1,0 +1,77 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>profcontroler</servlet-name>
+  	<display-name>profcontroler</display-name>
+  	<description></description>
+  	<servlet-class>Controlers.profcontroler</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>controlerEtudint</servlet-name>
+  	<display-name>controlerEtudint</display-name>
+  	<description></description>
+  	<servlet-class>Controlers.controlerEtudint</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>controlerProject</servlet-name>
+  	<display-name>controlerProject</display-name>
+  	<description></description>
+  	<servlet-class>Controlers.controlerProject</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>LoginControler</servlet-name>
+  	<display-name>LoginControler</display-name>
+  	<description></description>
+  	<servlet-class>Controlers.LoginControler</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>phaseControler</servlet-name>
+  	<display-name>phaseControler</display-name>
+  	<description></description>
+  	<servlet-class>Controlers.phaseControler</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>taskControlr</servlet-name>
+  	<display-name>taskControlr</display-name>
+  	<description></description>
+  	<servlet-class>Controlers.taskControlr</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>avancementControler</servlet-name>
+  	<display-name>avancementControler</display-name>
+  	<description></description>
+  	<servlet-class>Controlers.avancementControler</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>profcontroler</servlet-name>
+  	<url-pattern>/profcontroler</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>controlerEtudint</servlet-name>
+  	<url-pattern>/controlerEtudint</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>controlerProject</servlet-name>
+  	<url-pattern>/controlerProject</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>LoginControler</servlet-name>
+  	<url-pattern>/LoginControler</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>phaseControler</servlet-name>
+  	<url-pattern>/phaseControler</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>taskControlr</servlet-name>
+  	<url-pattern>/taskControlr</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>avancementControler</servlet-name>
+  	<url-pattern>/avancementControler</url-pattern>
+  </servlet-mapping>
+</web-app>
